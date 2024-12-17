@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ejercicio1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row" style="margin-top: 5%;">
+            <div class="col-xs-3 col-sm-3 " ></div>
+            <div class="col-xs-4 col-sm-3 ">
+                <ul class="list-group mt-4">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        1. FACTORIAL   
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        2. PRIMO                      
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        3. SERIE MATEMATICA 
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        S. SAL   IR
+                    </li>
+                  </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 " ></div>
+            <div class="col-xs-4 col-sm-3 ">
+                <section class="container">
+
+                    <form class="form-group" action="calcular.php" method="post" >
+                      <!-- Número entre 10 y 50, de 5 en 5. Valor por defecto: 25 -->
+                      <input type="text" name="ingresoOpcion" id="ingresoOpcion"/>
+                      <input type="number" name="ingresoNumero" id="ingresoNumero" value="0" min="0" max="10" step="1" />
+                    
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                        <br><br>
+                    </form>
+                    </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
